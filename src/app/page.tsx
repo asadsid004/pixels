@@ -34,7 +34,7 @@ const Page = () => {
   useEffect(() => {
     async function loadWasm() {
       try {
-        const wasmModule = await import("../../public/wasm");
+        const wasmModule = await import("@/wasm");
         await wasmModule.default();
         setWasm(wasmModule);
         console.log("✅ WASM loaded successfully");
