@@ -42,7 +42,7 @@
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/pixels.git
+    git clone https://github.com/asadsid004/pixels.git
     cd pixels
     ```
 
